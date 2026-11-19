@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.savegeeks/savegeeks-mcp",
+  "title": "SaveGeeks Price Finder",
+  "description": "Find the lowest current price on Amazon.com for any product a shopper describes.",
+  "websiteUrl": "https://savegeeks.com",
+  "repository": {
+    "url": "https://github.com/savegeeks/savegeeks-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://savegeeks.com/mcp"
+    }
+  ]
+}
